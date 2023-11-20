@@ -1,0 +1,26 @@
+Learning objectives
+
+In this module, you will learn how to:
+  
+  -  Describe the benefits of Amazon EC2 at a basic level.
+  -  Identify the different Amazon EC2 instance types.
+  -  Differentiate between the various billing options for Amazon EC2.
+  -  Summarize the benefits of Amazon EC2 Auto Scaling.
+  -  Summarize the benefits of Elastic Load Balancing.
+  -  Give an example of the uses for Elastic Load Balancing.
+  -  Summarize the differences between Amazon Simple Notification Service (Amazon SNS) and Amazon Simple Queue Service (Amazon SQS).
+  -  Summarize additional AWS compute options.
+
+
+___________________________________________________________________________________________________________________________________________________________
+
+
+
+Amazon Elastic Compute Cloud (EC2):
+
+In client-server model, client sends a request, server does some work and sends a response.
+
+You need raw compute capacity to host your applications and provide the compute power that your business needs. 
+When you're working with AWS, those servers are virtual. 
+This service you use to gain access to virtual servers is called EC2. 
+
