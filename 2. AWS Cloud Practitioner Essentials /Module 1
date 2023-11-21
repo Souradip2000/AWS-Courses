@@ -1,0 +1,130 @@
+Summary:
+
+Cloud computing is the on-demand supply of IT resources over the internet, with pay-as-you-go pricing.
+
+Cloud deployment models:
+    1. Cloud-based deployment
+    2. On-premises deployment
+    3. Hybrid deployment
+
+Cloud computing service models:
+    1. IaaS : Infrastructure-as-a-Service
+    2. PaaS : Platform-as-a-Service
+    3. SaaS : Software-as-a-Service
+
+Benefits of cloud computing:
+    1. Pay-as-you-go pricing
+    2. instant scalability
+    3. deploy globally with low latency
+    4. benefit from lower prices because there are many users
+    5. increase speed and agility ; freedom to do things
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+
+Introduction:
+
+Almost all modern computing is based on the client-server model.
+
+Let's understand with the help of an example:
+
+There's a coffee shop and a customer comes and places a request for a coffee.
+Request = maybe the rain pattern analysis in South Africa/ the x rays of your elbow
+
+Server part in AWS  is called :     Amazon Elastic Compute Cloud( EC2 )
+An EC2 instance is a virtual server.
+
+In the example, a request was made, the server validates the request( in this example the customer has paid the bill ) and responds with the answer 
+i.e. the coffee.
+
+Key value:
+1. pay for what you use
+
+In computing, a client can be a web browser or desktop application that a person interacts with to make requests to computer servers. 
+A server can be services, such as Amazon Elastic Compute Cloud (Amazon EC2) – a type of virtual server.
+
+What is Cloud Computing?
+ans: the on-demand delivery of IT resources over the internet, with pay-as-you go pricing
+
+Heavy lifting of IT:
+the computer we are running MySQL dosen't differentiate a business from its verticals
+how they are storing the data in the tables is what differentiates them
+AWS helps regarding the first so that businesses can focus on the second
+other advantages are instant scalability
+why pay for developer environments on weekends when developers are on not working
+
+3 cloud computing deployment models:
+  i.   cloud-based
+  ii.  on-premises
+  iii. hybrid
+
+
+
+i. Cloud based deployment:
+
+  -  Run all parts of the application in the cloud.
+  -  Migrate existing applications to the cloud.
+  -  Design and build new applications in the cloud.
+In a cloud-based deployment model, you can migrate existing applications to the cloud, or you can design and build new applications in the cloud. 
+You can build those applications on low-level infrastructure that requires your IT staff to manage them. 
+Alternatively, you can build them using higher-level services that reduce the management, architecting, and scaling requirements of the core infrastructure.
+
+For example, a company might create an application consisting of virtual servers, databases, and networking components that are fully based in the cloud.
+
+
+ii. On-premises deployment:
+Also known as privated cloud.
+Deploy resources by using virtualisation and resource management tools
+increase resource utilization by using the above
+
+This model is much like the legacy IT infrastructure. Its incorporation of virtualisation and resource mgmt tools differentiates it and gives it an edge over...
+
+
+iii. Hybrid deployment
+We connect cloud-based resources to on-premises infrastructure and
+integrate cloud-based resources with legacy IT solutions
+
+Useful if there are certain applicatons that run better on on-premises infrastructure or some government regulations require the business to keep certain
+data on premises.
+
+
+Benefits of Cloud computing:
+1. pay as you go pricing
+2. instant scalability
+3. benefit from lower prices because there are many users
+4. increased speed and agility
+5. go global in minutes with low latency
+
+
+
+Service models of cloud computing:
+
+IaaS  :  Infrastructure-as-a-Service
+It contains the basic building blocks for cloud IT
+Provides access to:
+        networking features
+        data storage
+        computers
+
+PaaS  :  Platform-as-a-Service
+Platform as a Service (PaaS) removes the need for you to manage the underlying infrastructure (usually hardware and operating systems) and allows you 
+to focus on the deployment and management of your applications. 
+
+This helps you be more efficient because you don’t need to worry about resource procurement, capacity planning, software maintenance, patching, 
+or any of the other undifferentiated heavy lifting involved in running your application.
+
+
+Saas  : Software-as-a-Service
+Software as a Service (SaaS) provides you with a completed product that is run and managed by the service provider. 
+In most cases, people referring to SaaS are referring to end-user applications. 
+
+With a SaaS offering you do not have to think about how the service is maintained or how the underlying infrastructure is managed; 
+you only need to think about how you will use that piece of software. 
+
+A common example of a SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to 
+the email product or maintain the servers and operating systems that the email program is running on.
+
+
+_________________________________________________________________________________________________________________________________________________________
