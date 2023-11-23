@@ -24,3 +24,103 @@ You need raw compute capacity to host your applications and provide the compute 
 When you're working with AWS, those servers are virtual. 
 This service you use to gain access to virtual servers is called EC2. 
 
+AWS takes care of the hard part:
+- procurement of servers, wiring and setting them up and securing them
+- AWS is constantly operating a massive amount of compute capacity and 
+any business can use whatever portion of the compute capacity they need and whenever they need it.
+
+All we have to do is request the EC2 instances we want and they will be launched and boot up, ready to be used within a few minutes.
+We can request to stop or terminate an instance whenever we want.
+This way we are not stuck with servers that we don't need.
+We are not charged for stopped or terminated instances. We're charged only for instances that are running.
+
+Virtualization technology is used by AWS to run EC2 instances on top of physical host machines.
+When we spin up an EC2 instance, we aren't taking an entire host to ourselves.
+Instead a supervisor manages the physical resources between different virtual machines.
+
+Multitenancy - idea of sharing the underlying hardware
+
+Hyperviosr - manages the underlying hardware between different virtual machines + ensures isolation of different virtual machines
+This means although they are running on the same server, each EC2 instance is completely safe.
+
+EC2 gives a great deal of flexibility - not only regarding spinning off new servers and shutting them down 
+but also in the way we can configure them.
+We can choose which OS we need : Windows / Linux
+We can choose which applications to run on these : web apps, commpany specific software, databases
+We control the networking aspect of EC2 : whether your requests will be publicly or privately available
+
+
+Vertical scaling :
+We can start with a smaller instance, and when we realise that our application is maxing out the server, I can give more memory to it.
+
+CaaS : Compute-as-a-Service
+Amazon has made the concept of virtual machines and acquiring servers a lot more easier and cost-effective through this model.
+
+
+
+
+
+___________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+Amazon EC2 Instance Types:
+
+
+Each instance type is grouped under an instance family.
+Amazon EC2 instances are optimised for different tasks. 
+When selecting an instance type, consider the specific needs of your workloads and applications.
+This might include requirements for compute, memory or storage capabilities.
+
+
+
+Instance types:
+
+1. General purpose instances : 
+Have an optimised amount of all three : network, storage and compute capacity
+Can be used for : small and medium size databases, application servers, backend servers, etc.
+
+2. Compute optimised instances : 
+Ideal for compute-bound applications that benefit from high-performance processors
+used for dedicated gaming servers, high performance web servers, compute-intensive application servers
+
+3. Memory optimised instances:
+Memory = RAM
+info from storage is loaded into memory from where the CPU can direclty access these
+can be used in the case of working with a high performance dataset
+
+4. Accelerated computing instances :
+uses coprocessors or hardware accelerators to perform tasks like floating point data calculation, graphics processing and data pattern matching
+can't be efficiently done by general CPUs
+
+Hardware accelerator : one that can expedite data processing
+
+5. Storage optimised instances :
+Suitable for workloads that require high, sequential read and write access to large datasets on local storage
+useful for data warehousing operations, high frequency online transaction processing systems ( OLTP )
+
+I/O operations per second ( IOPS )  is a metric used to measure the performance of storage devices.
+
+input : entering data into a database
+output : getting analytics on data stored in a database
+if my task requires a high IOPS rate, then storage optimised instances are best suited.
+
+
+
+
+___________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
